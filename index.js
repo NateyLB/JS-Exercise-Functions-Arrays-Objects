@@ -263,14 +263,14 @@ function getOlderCars(inventory, targetYear) {
  * in the same order as they appear in the original inventory.
 */
 function getGermanCars(inventory) {
-  var germanCar = [];
+  var germanCars = [];
   for (var i = 0; i < inventory.length; i++){
     if (inventory[i].car_make == 'Audi'||inventory[i].car_make == 'Mercedes-Benz'||
         inventory[i].car_make == 'Volkswagen'||inventory[i].car_make == 'BMW'){
-      germanCar.push(inventory[i]);
+      germanCars.push(inventory[i]);
     }
   }
-  return germanCar;
+  return germanCars;
 }
 
 
