@@ -224,7 +224,7 @@ function sortCarInventory(inventory) {
 function getModelYears(inventory) {
   var years = [];
   for (var i = 0; i < inventory.length; i++){
-    years[i] = inventory[i];
+    years[i] = inventory[i].car_year;
   }
   return years;
 }
