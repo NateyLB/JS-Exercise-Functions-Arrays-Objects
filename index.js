@@ -39,8 +39,13 @@ function addNumbers(num1, num2) {
  *   email: "leia@leia.com",
  * }
 */
-function makePersonObject(/* code here */) {
-  /* code here */
+function makePersonObject(personId, personName, personEmail) {
+  var  person ={
+    id: personId,
+    name: personName,
+    email: personEmail
+  }
+  return person;
 }
 
 /**
