@@ -62,8 +62,7 @@ function makePersonObject(personId, personName, personEmail) {
  * the returned value should look like `Hello, my name is Leia`.
 */
 function getName(person) {
-  let name = person.name;
-  return `Hello, my name is ${name}` ; 
+  return `Hello, my name is ${person.name}` ; 
 }
 
 /**
