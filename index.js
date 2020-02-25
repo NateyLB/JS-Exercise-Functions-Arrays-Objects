@@ -198,13 +198,13 @@ function getCarInfoById(inventory, id) {
 function sortCarInventory(inventory) {
   function compare(a, b) {
     // Use toUpperCase() to ignore character casing
-    const bandA = a.car_model.toUpperCase();
-    const bandB = b.car_model.toUpperCase();
+    const carA = a.car_model.toUpperCase();
+    const carB = b.car_model.toUpperCase();
   
     let comparison = 0;
-    if (bandA > bandB) {
+    if (carA > carB) {
       comparison = 1;
-    } else if (bandA < bandB) {
+    } else if (carA < carB) {
       comparison = -1;
     }
     return comparison;
