@@ -313,7 +313,7 @@ function carMaker(carOdometer) {
   var car = {
     odometer: carOdometer,
     drive: function(distance){
-      this.odometer = distance +  this.odometer
+      this.odometer = distance + this.odometer
       return this.odometer;
     }
   }
